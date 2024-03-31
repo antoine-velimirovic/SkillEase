@@ -22,3 +22,14 @@ h1, h2, h3 {
 a {
 	text-decoration: none;
 }
+
+@media (max-width: 425px) {
+	body {
+		font-size: 16px;
+	}
+}
+@media (max-width: 375px) {
+	body {
+		font-size: 14px;
+	}
+}

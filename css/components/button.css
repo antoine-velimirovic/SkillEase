@@ -11,3 +11,9 @@
 	background-color: #232732;
 	color: #F7873B;
 }
+
+@media (max-width: 375px) {
+	.btn-orange {
+		padding: 10px 15px;
+	}
+}

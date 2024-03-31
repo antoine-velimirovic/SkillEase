@@ -17,3 +17,13 @@
 	opacity: 0.8;
 	margin-bottom: 50px;
 }
+
+}
+@media (max-width: 375px) {
+	.banner h1 {
+		font-size: 33px;
+	}
+	.banner h2 {
+		font-size: 23px;
+	}
+}
