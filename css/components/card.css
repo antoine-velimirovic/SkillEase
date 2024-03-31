@@ -7,7 +7,7 @@
 	padding: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
     border-radius: 6px;
     margin: 10px;
@@ -15,10 +15,24 @@
     flex-grow: 1;
 }
 
-.card img {
-    width: 110px;
-    height: auto;
-    border-radius: 6px;
+.card-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-description span {
+    color: #232732;
+    font-size: 14px;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.card-description span.subtitle {
+    font-size: 10px;
+    font-family: "Lora", serif;
+    white-space: wrap;
+    font-weight: normal;
 }
 
 .card h3 {
