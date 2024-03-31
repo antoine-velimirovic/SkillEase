@@ -16,7 +16,6 @@
     color: #232732;
     opacity: 0.7;
     font-weight: light;
-    font-size: 18px;
 }
 
 .navbar-link:hover {
@@ -29,6 +28,10 @@
     font-family: "Roboto", sans-serif;
 }
 
+.navbar-right{
+    font-size: 18px;
+}
+
 .navbar-left img {
     width: 40px;
     height: auto;
@@ -38,12 +41,12 @@
 .navbar-left span {
     margin-left: 0.5rem;
     color: #232732;
-    font-size: 16px;
+    font-size: 18px;
     display: block;
 }
 
 .navbar-left span.subtitle {
-    font-size: 12px;
+    font-size: 14px;
     max-width: 140px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -65,4 +68,60 @@ mr-3, .mx-3 {
 @media (min-width: 576px)
 .d-sm-flex {
     display: flex !important;
+}
+
+
+@media (max-width: 425px) {
+    .navbar-right {
+    font-size: 12px;
+    }
+    .navbar-item {
+    padding-left: 14px;
+    }
+    .navbar-left img {
+    width: 30px;
+    }
+    .navbar-left span {
+        font-size: 12px;
+    }
+    .navbar-left span.subtitle {
+        font-size: 11px;
+        max-width: 100px;
+    }
+}
+@media (max-width: 375px) {
+    .navbar-right {
+    font-size: 11px;
+    }
+    .navbar-item {
+    padding-left: 12px;
+    }
+    .navbar-left img {
+    width: 27px;
+    }
+    .navbar-left span {
+        font-size: 11px;
+    }
+    .navbar-left span.subtitle {
+        font-size: 10px;
+        max-width: 80px;
+    }
+}
+@media (max-width: 320px) {
+    .navbar-right {
+    font-size: 10px;
+    }
+    .navbar-item {
+    padding-left: 10px;
+    }
+    .navbar-left img {
+    width: 25px;
+    }
+    .navbar-left span {
+        font-size: 10px;
+    }
+    .navbar-left span.subtitle {
+        font-size: 9px;
+        max-width: 60px;
+    }
 }
