@@ -1,0 +1,34 @@
+.main h1 {
+	text-align: center;
+	padding-top: 50px;
+}
+
+.main {
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 65%), url(../../images/background-page.jpg);
+	color: white;
+	padding-top: 50PX;
+	padding-bottom: 100PX;
+	background-size: cover;
+	background-position: center;
+}
+
+.paragraph-photo {
+	display: flex;
+    text-align: justify;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.paragraph-photo p{
+	padding: 10px;
+    flex-basis: 240px;
+    flex-grow: 1;
+}
+
+.paragraph-photo img {
+	overflow: hidden;
+	padding: 10px;
+    flex-basis: 240px;
+    flex-grow: 1;
+}
