@@ -29,11 +29,9 @@
     font-weight: bold;
 }
 
-.card-description span.subtitle {
-    font-size: 10px;
-    font-family: "Lora", serif;
-    white-space: wrap;
-    font-weight: normal;
+.card-description span:hover {
+    color: #F7873B;
+    font-weight: bolder;
 }
 
 .card h3 {

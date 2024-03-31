@@ -1,7 +1,7 @@
 .navbar {
     background: #F7873B;
     font-size: 14px;
-    padding: 10px 20px;
+    padding: 15px 25px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,7 +16,7 @@
     color: #232732;
     opacity: 0.7;
     font-weight: light;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .navbar-link:hover {
@@ -30,7 +30,7 @@
 }
 
 .navbar-left img {
-    width: 30px;
+    width: 40px;
     height: auto;
     border-radius: 6px;
 }
@@ -38,12 +38,12 @@
 .navbar-left span {
     margin-left: 0.5rem;
     color: #232732;
-    font-size: 14px;
+    font-size: 16px;
     display: block;
 }
 
 .navbar-left span.subtitle {
-    font-size: .7em;
+    font-size: 12px;
     max-width: 140px;
     overflow: hidden;
     text-overflow: ellipsis;
