@@ -15,11 +15,10 @@
 .navbar-link {
     color: #232732;
     opacity: 0.7;
-    font-weight: light;
 }
 
 .navbar-link:hover {
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .navbar-left, .navbar-right{
@@ -30,6 +29,7 @@
 
 .navbar-right{
     font-size: 18px;
+    font-weight: 500;
 }
 
 .navbar-left img {

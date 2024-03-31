@@ -1,3 +1,9 @@
+.avatar {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
 .cards {
 	display: flex;
     flex-wrap: wrap;
@@ -12,13 +18,14 @@
     background: rgba(260,260,260,1);
     border-radius: 6px;
     margin: 10px;
-    flex-basis: 240px;
+    flex-basis: 180px;
     flex-grow: 1;
 }
 
 .card-description {
     display: flex;
     flex-direction: column;
+    flex-basis: 60px;
 }
 
 .card-description span {
@@ -38,4 +45,85 @@
     flex-grow: 1;
     padding-left: 10px;
     font-size: 18px;
+}
+
+
+@media (max-width: 1024px) {
+    .card   {
+    padding: 12px;
+    flex-basis: 180px;
+    }
+    .card-description span {
+    font-size: 14px;
+    }
+    .avatar {
+    width: 80px;
+    }
+    .card-description {
+    flex-basis: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card   {
+    padding: 10px;
+    flex-basis: 130px;
+    }
+    .card-description span {
+    font-size: 12px;
+    }
+    .avatar {
+    width: 70px;
+    }
+    .card-description {
+    flex-basis: 60px;
+    }
+}
+
+@media (max-width: 425px) {
+    .card   {
+    padding: 10px;
+    flex-basis: 130px;
+    }
+    .card-description span {
+    font-size: 12px;
+    }
+    .avatar {
+    width: 70px;
+    }
+    .card-description {
+    flex-basis: 60px;
+    }
+}
+
+@media (max-width: 375px) {
+    .card   {
+    padding: 8px;
+    flex-basis: 110px;
+    }
+    .card-description span {
+    font-size: 10px;
+    }
+    .avatar {
+    width: 50px;
+    }
+    .card-description {
+    flex-basis: 50px;
+    }
+}
+
+@media (max-width: 320px) {
+    .card   {
+    padding: 8px;
+    flex-basis: 110px;
+    }
+    .card-description span {
+    font-size: 10px;
+    }
+    .avatar {
+    width: 50px;
+    }
+    .card-description {
+    flex-basis: 50px;
+    }
 }
